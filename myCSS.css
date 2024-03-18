@@ -1,0 +1,186 @@
+﻿body {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+    body .top-bar {
+        background-color: #ffffff;
+    }
+
+        body .top-bar .main-bar {
+            background-color: #ffffff;
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+            body .top-bar .main-bar .contact-left {
+                flex-grow: 4;
+                background-color: #ffffff;
+                display: flex;
+                justify-content: flex-start;
+                gap: 10px;
+            }
+
+            body .top-bar .main-bar .login-right {
+                flex-grow: 2;
+                background-color: #ffffff;
+                display: flex;
+                justify-content: flex-end;
+                gap: 10px;
+            }
+
+    body .main-content {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+    }
+
+        body .main-content .content-left,
+        body .main-content .content-right,
+        body .main-content .content-mid {
+            flex-grow: 1;
+        }
+
+        body .main-content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+    body .container {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: auto;
+        background-color: white;
+        box-sizing: border-box;
+    }
+
+        body .container button {
+            background-color: white;
+        }
+
+.body-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.body-left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.body-left-content-left,
+.body-left-content-right {
+    flex: 1;
+    margin: 0 10px;
+}
+
+\.body-left-content-right {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: auto;
+}
+
+.body-left-header-left {
+    border-left: solid #53087a;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+    .body-left-header-left h3 {
+        margin: 0;
+    }
+    /* phan nay khong phai cua t */
+.header-content {
+    background-color: darkgray;
+    padding: 5px;
+    color: red;
+}
+
+.body-left-header-right {
+    text-align: right;
+    padding-right: 5px;
+    margin-top: 22px;
+}
+
+.body-left-content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 70%;
+    align-items: center;
+}
+
+.body-left img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.body-left h2 {
+    color: red;
+}
+
+.body-left p {
+    margin-top: 10px;
+}
+
+.body-right {
+    flex-grow: 1;
+}
+
+.body-right-head {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 5px;
+}
+
+    .body-right-head a {
+        margin-right: 10px;
+    }
+
+    .body-right-head .date {
+        margin-right: 10px;
+        font-size: 13px;
+    }
+
+ul {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+    .footer-right img {
+        max-width: 30%;
+        height: auto;
+        display: inline-block;
+        /* margin-left: auto;
+        align-self: flex-start;*/
+        margin-bottom: 10px;
+    }
+
+    .footer-right p {
+        margin: 0;
+    }
+
+ul, h3 {
+    align-self: flex-start;
+}
+
+h3 {
+    background-color: darkgray;
+    padding: 5px;
+    color: red;
+}
