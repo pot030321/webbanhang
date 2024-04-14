@@ -1,12 +1,14 @@
 ﻿using PagedList;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Drawing.Printing;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using WebBanHangOnline.Models;
 using WebBanHangOnline.Models.EF;
+using WebBanHangOnline.qrcode;
 
 namespace WebBanHangOnline.Areas.Admin.Controllers
 {
@@ -32,6 +34,7 @@ namespace WebBanHangOnline.Areas.Admin.Controllers
 
         public ActionResult Add()
         {
+
             ViewBag.ProductCategory = new SelectList(db.productCategories.ToList(), "Id", "Title");
             return View();
         }
@@ -41,6 +44,9 @@ namespace WebBanHangOnline.Areas.Admin.Controllers
         {
             using (var transaction = db.Database.BeginTransaction())
             {
+                string url = "https://localhost:44314/chi-tiet/fujifilm-x100t-16-mp-digital-camera-(silver)-p6";
+                string path = $"{AppDomain.CurrentDomain.BaseDirectory}/Common/Imageqrcode";
+                QRCodeUtility.GenerateAndSaveQRCode(url, path);
 
                 try
                 {
@@ -116,7 +122,7 @@ namespace WebBanHangOnline.Areas.Admin.Controllers
                 model.Alias = WebBanHangOnline.Models.commons.Filter.RemoveSign4VietnameseString(model.Title);
                 db.products.Attach(model);
                 db.Entry(model).State = System.Data.Entity.EntityState.Modified;
-                db.SaveChanges();
+                    db.SaveChanges();
                 return RedirectToAction("Index");
 
             }

@@ -8,72 +8,100 @@ using System.Web;
 namespace WebBanHangOnline.Models.commons
 {
     public class Filter
-    {
-        //c1
-        private static readonly string[] VietnameseSigns = new string[]
-
+    { 
+        private static readonly string[] VietNamChar = new string[]
         {
-
-        "aAeEoOuUiIdDyY",
-
-        "áàạảãâấầậẩẫăắằặẳẵ",
-
-        "ÁÀẠẢÃÂẤẦẬẨẪĂẮẰẶẲẴ",
-
-        "éèẹẻẽêếềệểễ",
-
-        "ÉÈẸẺẼÊẾỀỆỂỄ",
-
-        "óòọỏõôốồộổỗơớờợởỡ",
-
-        "ÓÒỌỎÕÔỐỒỘỔỖƠỚỜỢỞỠ",
-
-        "úùụủũưứừựửữ",
-
-        "ÚÙỤỦŨƯỨỪỰỬỮ",
-
-        "íìịỉĩ",
-
-        "ÍÌỊỈĨ",
-
-        "đ",
-
-        "Đ",
-
-        "ýỳỵỷỹ",
-
-        "ÝỲỴỶỸ"
-
-  };
-
-
+            "aAeEoOuUiIdDyY",
+            "áàạảãâấầậẩẫăắằặẳẵ",
+            "ÁÀẠẢÃÂẤẦẬẨẪĂẮẰẶẲẴ",
+            "éèẹẻẽêếềệểễ",
+            "ÉÈẸẺẼÊẾỀỆỂỄ",
+            "óòọỏõôốồộổỗơớờợởỡ",
+            "ÓÒỌỎÕÔỐỒỘỔỖƠỚỜỢỞỠ",
+            "úùụủũưứừựửữ",
+            "ÚÙỤỦŨƯỨỪỰỬỮ",
+            "íìịỉĩ",
+            "ÍÌỊỈĨ",
+            "đ",
+            "Đ",
+            "ýỳỵỷỹ",
+            "ÝỲỴỶỸ"
+        };
 
         public static string RemoveSign4VietnameseString(string str)
-
         {
-
-            //Tiến hành thay thế , lọc bỏ dấu cho chuỗi
-
-            for (int i = 1; i < VietnameseSigns.Length; i++)
-
+            str = str.Trim();
+            for (int i = 1; i < VietNamChar.Length; i++)
             {
-
-                for (int j = 0; j < VietnameseSigns[i].Length; j++)
-
-                    str = str.Replace(VietnameseSigns[i][j], VietnameseSigns[0][i - 1]);
-
+                for (int j = 0; j < VietNamChar[i].Length; j++)
+                {
+                    str = str.Replace(VietNamChar[i][j], VietNamChar[0][i - 1]);
+                }
             }
-
-            return str;
-
+            str = str.Replace(" ", "-");
+            str = str.Replace("--", "-");
+            str = str.Replace("?", "");
+            str = str.Replace("&", "");
+            str = str.Replace(",", "");
+            str = str.Replace(":", "");
+            str = str.Replace("!", "");
+            str = str.Replace("'", "");
+            str = str.Replace("\"", "");
+            str = str.Replace("%", "");
+            str = str.Replace("#", "");
+            str = str.Replace("$", "");
+            str = str.Replace("*", "");
+            str = str.Replace("`", "");
+            str = str.Replace("~", "");
+            str = str.Replace("@", "");
+            str = str.Replace("^", "");
+            str = str.Replace(".", "");
+            str = str.Replace("/", "");
+            str = str.Replace(">", "");
+            str = str.Replace("<", "");
+            str = str.Replace("[", "");
+            str = str.Replace("]", "");
+            str = str.Replace(";", "");
+            str = str.Replace("+", "");
+            return str.ToLower();
         }
-        //c2
+
         public static string LoaiDau(string str)
         {
-            Regex regex = new Regex("\\p{IsCombiningDiacriticalMarks}+");
-            string temp = str.Normalize(NormalizationForm.FormD);
-            return regex.Replace(temp, String.Empty)
-                        .Replace('đ', 'd').Replace('Đ', 'D');
+            str = str.Trim();
+            for (int i = 1; i < VietNamChar.Length; i++)
+            {
+                for (int j = 0; j < VietNamChar[i].Length; j++)
+                {
+                    str = str.Replace(VietNamChar[i][j], VietNamChar[0][i - 1]);
+                }
+            }
+            str = str.Replace(" ", "-");
+            str = str.Replace("--", "-");
+            str = str.Replace("?", "");
+            str = str.Replace("&", "");
+            str = str.Replace(",", "");
+            str = str.Replace(":", "");
+            str = str.Replace("!", "");
+            str = str.Replace("'", "");
+            str = str.Replace("\"", "");
+            str = str.Replace("%", "");
+            str = str.Replace("#", "");
+            str = str.Replace("$", "");
+            str = str.Replace("*", "");
+            str = str.Replace("`", "");
+            str = str.Replace("~", "");
+            str = str.Replace("@", "");
+            str = str.Replace("^", "");
+            str = str.Replace(".", "");
+            str = str.Replace("/", "");
+            str = str.Replace(">", "");
+            str = str.Replace("<", "");
+            str = str.Replace("[", "");
+            str = str.Replace("]", "");
+            str = str.Replace(";", "");
+            str = str.Replace("+", "");
+            return str.ToLower();
         }
     }
 }

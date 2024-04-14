@@ -57,6 +57,8 @@
                     {
                         @Html.AntiForgeryToken()
                         @Html.ValidationSummary(true)
+                        @Html.HiddenFor(x=>x.Id)
+                        @Html.HiddenFor(x=>x.CreateDate)
                         <div class="card">
                             <div class="card-header p-2">
                                 <ul class="nav nav-pills">
@@ -117,7 +119,7 @@
                                             <div class="col-4">
                                                 <div class="form-group">
                                                     <label for="exampleInputEmail1">Giá khuyến mãi</label>
-                                                    <input type="text" name="demoPriceSale" value="@Model.PriceSale" id="demoPriceSale" class="form-control auto">
+                                                    <input type="text" name="demoPriceSale" value="@Model.PriceSale" id="demoPriceSale" class="form-control auto" data-a-dec="," data-a-sep=".">
                                                     @Html.HiddenFor(x => x.PriceSale, new { @class = "", @placeholder = "Khuyến mãi" })
                                                     @Html.ValidationMessageFor(x => x.PriceSale, null, new { @class = "text-danger" })
                                                 </div>

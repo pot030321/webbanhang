@@ -101,7 +101,7 @@
                                 <td>@item.Title</td>
                                 <td>@item.ProductCategory.Title</td>
                                 <td>@item.Quantity</td>
-                                <td>@item.Price</td>
+                                <td >@WebBanHangOnline.Common.Common.FormatNumber(item.Price,0)</td>
                                 <td>@item.CreateDate.ToString("dd/MM/yyyy")</td>
                                 <td class="text-center">
                                     <a href='#' data-id="@item.Id" class="btnActiveSale"> @Html.Raw(STRSalecheck)</a>

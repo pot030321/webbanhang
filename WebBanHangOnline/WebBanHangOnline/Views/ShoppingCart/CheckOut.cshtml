@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "Thanh toán";
+}
+
+<style>
+    .error{color:red;}
+</style>
+
+<link rel="stylesheet" type="text/css" href="~/Content/assets/styles/categories_styles.css">
+<link rel="stylesheet" type="text/css" href="~/Content/assets/styles/categories_responsive.css">
+
+
+<div class="container product_section_container">
+    <div class="row">
+        <div class="col product_section clearfix">
+            <!-- Breadcrumbs -->
+
+            <div class="breadcrumbs d-flex flex-row align-items-center">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li class="active"><a href="/"><i class="fa fa-angle-right" aria-hidden="true"></i>Giỏ hàng</a></li>
+                </ul>
+            </div>
+
+
+
+            <!-- Main Content -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Thanh toán</h1>
+                    <p>bạn hãy kiểm tra lại thông tin đơn hàng cho chính xác </p>
+                </div>
+            </div>
+            <hr />
+            @if (ViewBag.CheckCart != null)
+            {
+                <div class="row">
+                    <div id="show_success"></div>
+                    <div class="col-md-8">
+                       @Html.Action("Partial_CheckOut", "ShoppingCart")
+                    </div>
+                    <div class="col-md-4">
+                        @Html.Action("Partial_Item_ThanhToan", "ShoppingCart")
+                    </div>
+
+                </div>
+            }
+            else
+            {
+            <div>
+                <h4>Bạn chưa có sản phẩm nào.Vui lòng quay lại <a href="/san-pham">sản phẩm</a> để mua hàng</h4>
+            </div>
+            }
+
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="~/content/assets/js/categories_custom.js"></script>
+    <script>
+        function Onfailure(rs){
+            if (!rs.Success) {
+                $('#show_success').html("ban mua hang that bai!!! xin vui long kiem tra lai ")
+            }
+        }
+        $(document).ready(function () {
+            $('#myForm').validate({
+                rules: {
+                    'CustomerName': {
+                        required: true
+                    },
+                    'Phone': {
+                        required: true
+                    },
+                    'Address': {
+                        required: true
+                    },
+                    'Email': {
+                        required: true,
+                        email: true 
+                    }
+                },
+                messages: {
+                    'CustomerName': 'không được bỏ trống',
+                    'Phone': 'không được bỏ trống',
+                    'Address': 'không được bỏ trống',
+                    'Email': 'email Invalid',
+
+                }
+            });
+        });
+    </script>
+}
+

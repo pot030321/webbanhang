@@ -11,7 +11,7 @@ namespace WebBanHangOnline.Models
     [Table("db_Contact")]
     public class Contact :CommonAsbtract
     {
-        [Key]
+        [Key]   
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required(ErrorMessage ="Tên không được để trống")]

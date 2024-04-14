@@ -12,10 +12,14 @@ namespace WebBanHangOnline.Areas.Admin.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
         // GET: Admin/ProductCategory
-        public ActionResult Index()
+        public ActionResult Index(string Searchtext)
         {
-
-            return View(db.productCategories);
+            IEnumerable<ProductCategory> items = db.productCategories;
+            if (!string.IsNullOrEmpty(Searchtext))
+            {
+                items = items.Where(x => x.Alias.Contains(Searchtext) || x.Title.Contains(Searchtext));
+            }
+            return View(items);
         }
 
         public ActionResult Add()

@@ -48,6 +48,7 @@ namespace WebBanHangOnline.Models.EF
         public string SeoDescription { get; set; }
         [StringLength(250)]
         public string SeoKeywords { get; set; }
+
         
         public virtual ProductCategory ProductCategory { get; set; }
         public virtual ICollection<ProductImage> ProductImages { get; set; }
