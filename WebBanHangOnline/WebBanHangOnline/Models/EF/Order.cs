@@ -18,15 +18,18 @@ namespace WebBanHangOnline.Models.EF
         public int Id { get; set; }
         [Required]
         public string Code { get; set; }
-        [Required]
+        [Required(ErrorMessage ="Tên khách hàng không được để trống")]
         public string CustomerName { get; set; }
-        [Required]
+        [Required(ErrorMessage ="Số điện thoại không được để trống")]
         public string Phone { get; set; }
-        [Required]
+        [Required(ErrorMessage ="địa chỉ không để trống")]
         public string Address { get; set; }
+        public string Email { get; set; }
         public decimal TotalAmount { get; set; }
         public int Quantity { get; set; }
+        public int Typepayment { get; set; }
+        public string qrCode { get; set; }
 
-        public ICollection<OrderDetail> OrderDetails { get; set; }
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

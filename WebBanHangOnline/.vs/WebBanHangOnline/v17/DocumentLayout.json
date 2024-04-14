@@ -1,14 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ph\u1EA7n m\u1EC1m m\u00F4i tr\u01B0\u1EDDng ph\u00E1t tri\u1EC3n c\u00F4ng c\u1EE5 m\u1EDBi\\webBanhang-master\\WebBanHangOnline\\",
+  "WorkspaceRootPath": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|d:\\ph\u1EA7n m\u1EC1m m\u00F4i tr\u01B0\u1EDDng ph\u00E1t tri\u1EC3n c\u00F4ng c\u1EE5 m\u1EDBi\\webbanhang-master\\webbanhangonline\\webbanhangonline\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|solutionrelative:webbanhangonline\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|d:\\savecode\\c#\\codewebasp.netmvc\\webbanhangonline\\webbanhangonline\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|solutionrelative:webbanhangonline\\views\\news\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|D:\\ph\u1EA7n m\u1EC1m m\u00F4i tr\u01B0\u1EDDng ph\u00E1t tri\u1EC3n c\u00F4ng c\u1EE5 m\u1EDBi\\webBanhang-master\\WebBanHangOnline\\webbanhangonline\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|solutionrelative:webbanhangonline\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\webbanhangonline\\areas\\admin\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|solutionrelative:webbanhangonline\\areas\\admin\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\webbanhangonline\\areas\\admin\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|solutionrelative:webbanhangonline\\areas\\admin\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\webbanhangonline\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|solutionrelative:webbanhangonline\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\webbanhangonline\\areas\\admin\\controllers\\productcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|solutionrelative:webbanhangonline\\areas\\admin\\controllers\\productcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\webbanhangonline\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|solutionrelative:webbanhangonline\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\webbanhangonline\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|solutionrelative:webbanhangonline\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\webbanhangonline\\areas\\admin\\views\\posts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|solutionrelative:webbanhangonline\\areas\\admin\\views\\posts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\webbanhangonline\\views\\shoppingcart\\partial_item_thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{061806C0-27BF-41D1-8441-5DCA49970300}|WebBanHangOnline\\WebBanHangOnline.csproj|solutionrelative:webbanhangonline\\views\\shoppingcart\\partial_item_thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,37 +45,117 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 303,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "D:\\ph\u1EA7n m\u1EC1m m\u00F4i tr\u01B0\u1EDDng ph\u00E1t tri\u1EC3n c\u00F4ng c\u1EE5 m\u1EDBi\\webBanhang-master\\WebBanHangOnline\\WebBanHangOnline\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "WebBanHangOnline\\Controllers\\MenuController.cs",
-              "ToolTip": "D:\\ph\u1EA7n m\u1EC1m m\u00F4i tr\u01B0\u1EDDng ph\u00E1t tri\u1EC3n c\u00F4ng c\u1EE5 m\u1EDBi\\webBanhang-master\\WebBanHangOnline\\WebBanHangOnline\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "WebBanHangOnline\\Controllers\\MenuController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T13:18:51.684Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Views\\News\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanHangOnline\\Views\\News\\Index.cshtml",
+              "ToolTip": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Views\\News\\Index.cshtml",
+              "RelativeToolTip": "WebBanHangOnline\\Views\\News\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T06:12:32.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\ph\u1EA7n m\u1EC1m m\u00F4i tr\u01B0\u1EDDng ph\u00E1t tri\u1EC3n c\u00F4ng c\u1EE5 m\u1EDBi\\webBanhang-master\\WebBanHangOnline\\WebBanHangOnline\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "WebBanHangOnline\\Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\ph\u1EA7n m\u1EC1m m\u00F4i tr\u01B0\u1EDDng ph\u00E1t tri\u1EC3n c\u00F4ng c\u1EE5 m\u1EDBi\\webBanhang-master\\WebBanHangOnline\\WebBanHangOnline\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "WebBanHangOnline\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAQAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Views\\Posts\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanHangOnline\\Areas\\Admin\\Views\\Posts\\Index.cshtml",
+              "ToolTip": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Views\\Posts\\Index.cshtml",
+              "RelativeToolTip": "WebBanHangOnline\\Areas\\Admin\\Views\\Posts\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T06:12:20.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "WebBanHangOnline\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "WebBanHangOnline\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T13:18:46.719Z"
+              "WhenOpened": "2024-04-14T03:27:32.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductCategoryController.cs",
+              "DocumentMoniker": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Controllers\\ProductCategoryController.cs",
+              "RelativeDocumentMoniker": "WebBanHangOnline\\Areas\\Admin\\Controllers\\ProductCategoryController.cs",
+              "ToolTip": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Controllers\\ProductCategoryController.cs",
+              "RelativeToolTip": "WebBanHangOnline\\Areas\\Admin\\Controllers\\ProductCategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T03:27:31.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBanHangOnline\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebBanHangOnline\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T03:27:07.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "WebBanHangOnline\\Areas\\Admin\\Controllers\\PostsController.cs",
+              "ToolTip": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "WebBanHangOnline\\Areas\\Admin\\Controllers\\PostsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T03:05:30.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebBanHangOnline\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebBanHangOnline\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T03:05:25.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Views\\Posts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebBanHangOnline\\Areas\\Admin\\Views\\Posts\\Edit.cshtml",
+              "ToolTip": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Areas\\Admin\\Views\\Posts\\Edit.cshtml",
+              "RelativeToolTip": "WebBanHangOnline\\Areas\\Admin\\Views\\Posts\\Edit.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T03:04:32.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Partial_Item_ThanhToan.cshtml",
+              "DocumentMoniker": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Views\\ShoppingCart\\Partial_Item_ThanhToan.cshtml",
+              "RelativeDocumentMoniker": "WebBanHangOnline\\Views\\ShoppingCart\\Partial_Item_ThanhToan.cshtml",
+              "ToolTip": "D:\\savecode\\c#\\codewebasp.netMVC\\WebBanHangOnline\\WebBanHangOnline\\Views\\ShoppingCart\\Partial_Item_ThanhToan.cshtml",
+              "RelativeToolTip": "WebBanHangOnline\\Views\\ShoppingCart\\Partial_Item_ThanhToan.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T02:06:16.089Z"
             }
           ]
         }

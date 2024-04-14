@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-6">
 
-                    @using (Html.BeginForm("Index", "News", FormMethod.Get, new { }))
+                    @using (Html.BeginForm("Index", "ProductCategory", FormMethod.Get, new { }))
                     {
                         <div class="input-group input-group-sm">
                             @Html.TextBox("Searchtext")
@@ -95,8 +95,8 @@
                                 </td>*@
                                 <td>
                                     <a href="/admin/productcategory/edit/@item.Id" class="btn btn-sm btn-primary">Sửa</a>
-                                    <a href="#" data-id="@item.Id" class="btn btn-sm btn-danger btnDelete">Xoá</a>
-                                </td>
+@*                                    <a href="#" data-id="@item.Id" class="btn btn-sm btn-danger btnDelete">Xoá</a>
+*@                                </td>
 
                             </tr>
                             ++i;

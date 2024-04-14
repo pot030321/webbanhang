@@ -1,0 +1,35 @@
+﻿@model IEnumerable<WebBanHangOnline.Models.ShoppingCartItem>
+@using WebBanHangOnline.Common
+
+@if (Model != null && Model.Any())
+{
+    <h3>Số lượng giỏ hàng: <span style="float:initial;"><small>@Model.Count()</small></span></h3>
+    var i = 0;
+    var tongtien = decimal.Zero;
+    <div style="border:1px solid #808080">
+        <table class="table">
+            @foreach (var item in Model)
+            {
+                tongtien += item.TotalPrice;    
+                <tr>
+                    <td><img src="@Url.Action("Generate", "QRCode", new { text = "Nội dung bạn muốn mã hóa vào QR" })" alt="QRCode" /></td>
+                    <td><img src="@item.ProductImg" width="60" height="50" /></td>
+                    <td>@item.ProductName</td>
+                    <td>@Common.FormatNumber(item.Price, 0)₫</td>
+
+                </tr>
+
+            }
+            <tr>
+                <td></td>
+                <td><h3>Tổng Tiền</h3></td>
+                <td><h5>@Common.FormatNumber(tongtien, 0)₫</h5></td>
+            </tr>
+        </table>
+    </div>
+
+}
+else
+{
+
+}
